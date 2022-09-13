@@ -4,11 +4,11 @@ default collate utf8_general_ci;
 
 
 CREATE TABLE users (
-    id int NOT NULL AUTO_INCREMENT,
+    id int NOT NULL UNIQUE AUTO_INCREMENT,
     name varchar(50) NOT NULL,
-    email varchar(50) NOT NULL,
+    email varchar(50) NOT NULL UNIQUE,
     signed_up_date DATE NOT NULL,
-    username varchar(15) NOT NULL,
+    username varchar(15) NOT NULL UNIQUE,
     password varchar(15) NOT NULL,
     PRIMARY KEY (id)
 ) DEFAULT CHARSET = utf8;
