@@ -27,3 +27,6 @@ Obrigado pela atenção e aguardo críticas construtivas.
 2º Passo: Criar um banco de dados MySQL conforme instruções contidas no arquivo mysql_config.txt
 
 3º Passo: Inicializar o arquivo main.py com seu editor de códigos
+
+# Authors
+[Cesar](https://github.com/cesarcoppolasantos)
